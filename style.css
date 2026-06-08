@@ -163,3 +163,33 @@ body {
     height: 450px;              /* 可调整高度 */
     border: none;
 }
+@media (max-width: 768px) {
+    .logo {
+        font-size: 18px;
+    }
+    
+    .carousel-slides img {
+        height: 380px;      /* 手机端适当调矮 */
+    }
+    
+    .carousel-btn {
+        width: 44px;
+        height: 44px;
+        font-size: 24px;
+    }
+    
+    .container {
+        width: 96%;
+        padding: 0 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel-slides img {
+        height: 320px;
+    }
+    
+    .carousel-section h2 {
+        font-size: 22px;
+    }
+}
